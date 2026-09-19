@@ -1,0 +1,5 @@
+@"
+build/
+.vs/
+*.vcxproj.user
+"@ | Out-File -Encoding utf8 .gitignore
