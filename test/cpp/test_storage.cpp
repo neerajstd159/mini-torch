@@ -36,3 +36,7 @@ void testStorage(){
 
    std::cout << "  passed\n";
 }
+
+void runStorageTests(){
+   testStorage();
+}

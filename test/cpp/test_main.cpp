@@ -1,20 +1,16 @@
 #include <iostream>
 
-void testStorage();
-void testTensorCreation();
-void testTensorIndexing();
-void testTensorView();
-void testTensorClone();
-void testTensorStorageSharing();
+void runStorageTests();
+void runTensorImplTests();
+void runTensorTests();
+void runCreationTests();
 
 int main() {
     try {
-        testStorage();
-        testTensorCreation();
-        testTensorIndexing();
-        testTensorView();
-        testTensorClone();
-        testTensorStorageSharing();
+        runStorageTests();
+        runTensorImplTests();
+        runTensorTests();
+        runCreationTests();
 
         std::cout << "\n"
                   << "=================================\n"

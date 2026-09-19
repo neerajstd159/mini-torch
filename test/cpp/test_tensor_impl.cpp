@@ -153,3 +153,11 @@ void testTensorStorageSharing() {
 
     std::cout << "  passed\n";
 }
+
+void runTensorImplTests(){
+   testTensorCreation();
+   testTensorIndexing();
+   testTensorView();
+   testTensorClone();
+   testTensorStorageSharing();
+}
